@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jivandhara | Cart</title>
+    <link rel="stylesheet" href="SubMenuIndex.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js" ></script>
+<script src="cart.js" async></script>
+</head>
+<body>
+    <div class="logo">
+        <img src="image/JIvandhara Logo.png" width="300px" height="75px">
+    </div>
+<div class="menu-bar">
+    <ul>
+        <li class="active"> <a href="SubMenuIndex.html"> <i class="fa fa-home"></i>Home</a></li>
+        <li> <a href="#"> <i class="fa fa-clone"></i>Products</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">Crop Protection</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="Insectiside.html" target="blank">Insecticides</a></li>
+                                <li><a href="fungicide.html" target="blank">Fungicides</a></li>
+                                <li><a href="herbicide.html" target="blank">Herbicides</a></li>
+                            </ul> 
+                        </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Crop Nutrition</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="Majornutrient.html" target="blank">Major Nutrients</a></li>
+                            <li><a href="micronutrient.html" target="blank">Micro Nutrients</a></li>
+                            <li><a href="growthpromoter.html" target="blank">Growth Promoters</a></li>
+                        </ul> 
+                    </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Seeds</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="millets.html" target="blank">Millets</a></li>
+                            <li><a href="pulses.html" target="blank">Pulses</a></li>
+                            <li><a href="cotton.html" target="blank">Cotton and Other</a></li>
+                        </ul>
+                    </div> 
+                    </li>
+                    <li><a href="equipment.html" target="blank">Equipment</a><i class="fa fa-angle-right"></i></li>
+                </ul>
+            </div>
+        </li>
+        <li> <a href="#"> <i class="fa fa-users"></i>About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="mission.html" target="blank">Mission</a></li>
+                    <li><a href="vision.html" target="blank">Vision</a></li>
+                    <li><a href="team.html" target="blank">Team</a></li>
+                </ul>
+            </div>
+        </li>
+        <li> <a href="knowledge.html" target="blank"> <i class="fa fa-info"></i>Knowledge</a></li>
+        <li> <a href="Registration.html" target="blank"> <i class="fa fa-user-circle-o"></i>Account</a></li>
+        <li> <a href="cart.html" target="blank"> <i class="fa fa-cart-plus"></i>Cart</a></li>
+    </ul>
+</div>
+   <!--------------------------------------Cart Items Details-------------------------------------->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Products</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/products/Insectiside/Actara.jpg" width="150px" height="200px">
+                    <div>
+                        <p>Syngenta-Actara</p>
+                        <small>Price: &#8377 320 100/gm</small>
+                        <br>
+                        <button class="btn btn-remove" type="button">Remove</button>
+                    </div>
+                </div>
+                
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>&#8377 320</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/products/Insectiside/Admire.jpg" width="150px" height="200px">
+                    <div>
+                        <p>Bayer-Admire</p>
+                        <small>Price: &#8377 301 30/gm</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>&#8377 301</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/products/Insectiside/alika.jpg" width="150px" height="200px">
+                    <div>
+                        <p>Syngenta-Alika</p>
+                        <small>Price: &#8377 252 80/ml</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>&#8377 252</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>&#8377 873</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>&#8377 22</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>&#8377 895</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+
+</div>
+
+<br>
+<br>
+<br>
+    <!-------------------Footer---------------------->
+    <footer class="newfooter">
+        <div class="f-row">
+            <div class="f-col">
+                <img src="image/JIvandhara Logo.png" width="200px" height="50px" class="f-logo">
+                <p>Our Perpose is to Sustainably make the farming easy and
+                    productive for every small scale to large scale farmer</p>
+            </div>
+            <div class="f-col">
+                <h3>Office <div class="underline"> <span></span></div> </h3>
+                <p>Padhawad</p>
+                <p>Tal- Shindkheda</p>
+                <p>Dist- Dhule</p>
+                <p>Maharashtra, Pin 425403, India</p>
+                <p class="email-id">jivandharafpc2015@gmail.com</p>
+                <h4>+91-8766436617</h4>
+            </div>
+            <div class="f-col">
+                <h3>Link <div class="underline"> <span></span></div> </h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Knowledge</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h3>News Letter <div class="underline"> <span></span></div> </h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email id" required>
+                    <button type="submit"> <i class="fas fa-arrow-right"></i> </button>
+                </form>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright" >Copyright 2022-Jivandhara Farmers Producer Company Limted</p>
+      </footer>
+    <!-------------------------js for toggle menu----------------------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+
+
+
+  </body>
+</html>

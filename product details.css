@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------drop down nav bar open-----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    padding: 8px;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    border-bottom: 5px solid orangered ; 
+}
+
+.menu-bar{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin: 9px;
+    padding: 9px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+} 
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+/*-----------------DropDown Nav Bar Close-----------------------*/
+
+/*-----------------------product details-------------------*/
+.single-product{
+    margin-top: 80px;
+    
+}
+.single-product .col-2 img{
+    padding: 0;
+
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #18aa05;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color: #289b1e;
+    margin-left: 10px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-img-col{
+flex-basis: 24%;
+cursor: pointer;
+border-radius: 20px;
+}
+
+/*--------------------------------new footer---------------------------------*/
+.newfooter{
+    position: sticky;
+    top: 100%;
+}
+footer{
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #233329, #21942f);
+    color: #fff;
+    padding: 10px 0 3px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.f-row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.f-col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.f-col:nth-child(2), .f-col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.f-logo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+footer p{
+    color: #fff;
+}
+footer h4{
+    color: #fff;
+}
+.f-col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom:  1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+    line-height: normal;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .f-col{
+        flex-basis: 100%;
+        
+    }
+    .f-col:nth-child(2), .f-col:nth-child(3){
+        flex-basis: 100%;
+    }
+}
